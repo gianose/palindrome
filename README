@@ -1,0 +1,11 @@
+In palindrome.rb I present two version of the palendrome method. The first version,
+in which I considered the simple solution, *reverse* the incoming string and 
+compares it to itself. The second solution, in essence splits the string in *half*
+and compares the front of the string to the end of the string. Bench marking 
+indicates to me that my first solution is the faster of the two but I present
+both for your interpretation (Which is the closest to O(1) time complexity if
+any at all?).
+
+Execute the following for instructions on usage.
+
+./palindrome.rb -?
